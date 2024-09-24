@@ -1,1 +1,25 @@
+<html lang ="pt-br">
+  <head>
+    <style>
+body {
+font :normal 18pt Arial ;
+} 
+</style>
+</head>
+<>body>
+<h1>Iniciando estudos com Dom</1>
+<p>Aqui vai um resultado</p>
+<p>Aprendendo a usar o <strong>DOM</strong></p>
+<div>Clique mim </div>
+<script>
+let p1 = window.document.getElementsByTagName('p')[1];
+p1.style.color='black';
+let corpo = window.document.body;
+corpo.blackground= 'black';
 
+//Acessando a arvore DOM
+//window.document.wrile(p1.innerText);
+
+</script>
+</body>
+</html>
